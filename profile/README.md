@@ -7,6 +7,8 @@
 
 <p align="center"><b>Threshold signing for Stellar. Any t of n parties sign as one ordinary account.</b></p>
 
+<p align="center"><a href="https://use-tessera.github.io/tessera/"><b>Check a transaction against a signer policy →</b></a> · <a href="https://github.com/Use-Tessera/tessera-coordinator/tree/main/examples/compose">Run a 2-of-3 group with Docker</a></p>
+
 Tessera splits a Stellar account's key with FROST (RFC 9591). Any `t` of `n`
 signers produce one standard Ed25519 signature: no contract, no multisig
 overhead, and a signer set nobody can see on chain. Every signer decodes what
